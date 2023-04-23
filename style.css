@@ -120,6 +120,7 @@ a {
     padding: 0 350px;
     color: hsl(201, 11%, 66%);
     font-size: 18px;
+    line-height: 25px;
 }
 
 
@@ -129,11 +130,118 @@ a {
 .middle-section2 {
     display: flex;
     flex-direction: row;
+    padding-bottom: 70px;
     align-items: center;
-    justify-content: center;
+    
 }
 
- .mid-sec2-left {
-    font-size: medium;
-    padding
+ .mid-sec2-left img{
+    width: 600px;
+    height: 500px;
 }
+
+.mid-sec2-right {
+    padding: 0 70px;
+}
+
+.quick-search h4{
+    padding-bottom: 20px;
+    width: 400px;
+    color: hsl(210, 10%, 33%);
+}
+
+.quick-search p {
+    font-size: 14px;
+    color: hsl(201, 11%, 66%);
+    padding: 0 300px 30px 0;
+    line-height: 25px;
+}
+
+.icloud-sync h4{
+    padding-bottom: 20px;
+    width: 400px;
+    color: hsl(210, 10%, 33%);
+}
+
+.icloud-sync p {
+    font-size: 14px;
+    color: hsl(201, 11%, 66%);
+    padding: 0 300px 30px 0;
+    line-height: 25px;
+}
+
+.complete-history h4{
+    padding-bottom: 20px;
+    width: 400px;
+    color: hsl(210, 10%, 33%);
+}
+
+.complete-history p {
+    font-size: 14px;
+    color: hsl(201, 11%, 66%);
+    padding: 0 300px 30px 0;
+    line-height: 25px;
+}
+
+
+/* MIDDLE SECTION 3 */
+
+.middle-section3 {
+    text-align: center;
+    padding: 30px;
+}
+
+.access-content h2{
+    color: hsl(210, 10%, 33%);
+    padding-bottom: 20px;
+    color: hsl(210, 10%, 33%);
+}
+
+.access-content p {
+    padding: 0 350px;
+    color: hsl(201, 11%, 66%);
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.img-devices {
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+
+/* BOTTOM SECTION 1 */
+
+.bottom-section1 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.workflow-section h2{
+    color: hsl(210, 10%, 33%);
+    padding-bottom: 10px;
+    color: hsl(210, 10%, 33%);
+}
+
+.workflow-section p {
+    color: hsl(201, 11%, 66%);
+    font-size: 14px;
+    line-height: 25px;
+}
+
+
+
+/* BOTTOM SECTION 2 */
+
+.bottom-section2 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 40px;
+}
+
+
+.create-blacklists img{
+    padding-bottom: 20px;
+}
+
