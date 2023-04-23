@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Bai Jamjuree", sans-serif;
+    justify-content: center;
+    margin: auto;
+}
+
+
+
+
+
+/* SECTION */
+
+.section {
+    background-image: url(./images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    align-items: center;
+    padding-top: 70px;
+}
+
+
+
+
+
+
+/* TOP SECTION  */
+
+.top-section {
+    padding: auto;
+    text-align: center;
+}
+
+.top-section .logo-img {
+    padding: 40px 0;
+}
+
+.top-header-content h1{
+    padding-bottom: 30px;
+    width: 600;
+    font-size: 35px;
+    color: hsl(210, 10%, 33%);
+}
+
+.top-header-content p {
+    font-size: 18px;
+    padding: 0 380px;
+    color: hsl(201, 11%, 66%);
+}
+
+
+
+
+
+
+/* IOS AND MAC SECTION */
+
+.ios-mac{
+    text-align: center;
+    margin: 45px 0 90px 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    width: 400;
+}
+
+.ios {
+    background-color: hsl(171, 66%, 44%);
+    border: none;
+    text-decoration: none;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+    margin-right: 10px;
+}
+
+.mac {
+    background-color: hsl(233, 100%, 69%);
+    border: none;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.ios:hover {
+    background-color: blueviolet;
+}
+
+.mac:hover {
+    background-color: blueviolet;
+}
+
+
+
+
+/* MIDDLE SECTION 1 */
+
+.middle-section1{
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.middle-content1 h2{
+    padding-bottom: 30px;
+    color: hsl(210, 10%, 33%);
+}
+
+.middle-content1 p {
+    padding: 0 350px;
+    color: hsl(201, 11%, 66%);
+    font-size: 18px;
+}
+
+
+
+/* MIDDLE SECTION 2 */
+
+.middle-section2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+ .mid-sec2-left {
+    font-size: medium;
+    padding
+}
